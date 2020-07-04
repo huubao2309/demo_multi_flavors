@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Demo Dev flavor',
+      title: 'Demo Uat flavors',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
     return Container(
       child: Center(
         child: Text(
-          'DEV ENVIRONMENT',
+          'UAT ENVIRONMENT',
           style: TextStyle(
             fontSize: 24.0,
           ),
